@@ -1,4 +1,9 @@
 #/usr/bin/python
+
+# input 
+# < userID, testItem > or < userID, recItem, score >
+# output : recall ratio
+
 import sys
 
 oldKey = None

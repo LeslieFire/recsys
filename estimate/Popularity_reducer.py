@@ -1,5 +1,9 @@
 #/usr/bin/python
 
+
+# input : itemID 1
+# output : itemID popularity
+
 import sys
 
 oldKey = None

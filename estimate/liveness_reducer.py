@@ -3,6 +3,10 @@
 import sys
 import math
 
+
+# input : < item, 'A', popularity > or < recommendItem, 'B'>
+# output : average popularity  and  max popularity
+
 oldKey = None
 
 count = 0

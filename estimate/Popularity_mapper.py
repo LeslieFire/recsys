@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+
+# input 
+# train data : userID 	itemID
+
+# output 
+# itemID  1 
+
 import sys
 
 for line in sys.stdin:

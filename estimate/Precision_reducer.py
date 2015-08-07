@@ -1,4 +1,10 @@
 #/usr/bin/python
+
+# input 
+# < userID, testItem > or < userID, recItem, score >
+# output : precision ratio
+
+
 import sys
 
 oldKey = None

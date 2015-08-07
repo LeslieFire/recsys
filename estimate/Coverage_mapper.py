@@ -2,6 +2,13 @@
 
 import sys
 
+# input 
+# test data : userID 	itemID
+# recommend data : userID 	recommendList
+
+# output 
+# < userID, testItem > or < userID, recItem, score >
+
 for line in sys.stdin:
 	data = line.strip().split("\t")
 

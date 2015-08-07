@@ -1,6 +1,13 @@
 #!/usr/bin/python
 import sys
 
+
+# input 
+# < userID, testItem > or < userID, recItem, score >
+
+# output 
+# coverage ratio
+
 oldKey = None
 trainSet = set()
 recSet = set()

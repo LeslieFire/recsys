@@ -46,4 +46,4 @@ if oldKey:
 	totalPopu += count * math.log(1 + popularity)
 	totalCount += count
 
-print float("%.5f"%(totalPopu /(totalCount * 1.0))), " max popularity : ", math.log(1 + maxPopularity)
+print "{0}\t{1}".format(float("%.5f"%(totalPopu /(totalCount * 1.0))), float("%.5f"%math.log(1 + maxPopularity)))

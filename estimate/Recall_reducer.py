@@ -12,7 +12,7 @@ recDict = {}
 
 hit = 0
 testAll = 0
-topN = 10
+topN = 3
 
 for line in sys.stdin:
 	data = line.strip().split("\t")
